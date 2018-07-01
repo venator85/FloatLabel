@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		FloatLabel t = ((FloatLabel) findViewById(R.id.txt1));
+		FloatLabel t = findViewById(R.id.txt1);
 		t.setHintTextColor(Color.BLUE);
 		t.reloadEditTextHintTextColor();
 
